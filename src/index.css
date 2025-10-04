@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--bg-color-white: #ffffff;
+	--bg-color-primary: #e8b659;
+	--bg-color-secondary: #efe7df;
+	--bg-color-tertiary: #f9f8f0;
+
+	--font-color-primary: #8A6113;
+	--font-color-secondary: #ffffff;
+	--font-color-tertiary: #C29747;
+
+	--bottom-color-green: #1c7323;
+	--bottom-color-red: #a52a2a;
+	--bottom-color-blue: #08266f;
+	--bottom-color-white: #ffffff;
+	--bottom-color-aqua: #ACEBE0;
+	--bottom-color-beige: #F8F8F5;
+	--bottom-color-brown: #8A6113;
+	--bottom-color-lightblue: #0F3E8D;
+
+	--font-family-title: "Montserrat", sans-serif;
+	--font-family-subtitle: "Lora", serif;
+	--font-family-paragraph: "Hind Madurai", sans-serif;
+	--font-size-title: 2rem;
+	--font-size-title-tablet: 2.5rem;
+	--font-size-title-desktop: 3rem;
+	--font-size-subtitle: 1.5rem;
+	--font-size-subtitle-tablet: 2rem;
+	--font-size-subtitle-desktop: 2.5rem;
+	--font-size-paragraph: 1rem;
+	--font-size-paragraph-tablet: 1.15rem;
+	--font-size-paragraph-desktop: 1.25rem;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: var(--font-family-title);
+}
+
+body {
+	background-color: var(--bg-color-secondary);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+}
+.titulo {
+	font-family: var(--font-family-title);
+	font-size: var(--font-size-title);
+	color: var(--font-color-primary);
+}
+
+.subtitulo {
+	color: var(--font-color-primary);
+	font-family: var(--font-family-subtitle);
+	font-size: var(--font-size-subtitle);
+}
+
+.parrafo {
+	color: var(--font-color-primary);
+	font-family: var(--font-family-subtitle);
+	font-size: var(--font-size-paragraph);
+	line-height: 2rem;
+}
+
+/* Sweet Alert*/
+
+div:where(.swal2-container).swal2-center>.swal2-popup {
+	background-color:#efe7df ;
+	border: 3px solid #8A6113 ;
+	border-radius: 10%;
+    grid-column: 2;
+    grid-row: 2;
+    place-self: center center;
+}
+
+div:where(.swal2-container) img:where(.swal2-image) {
+    max-width: 100%;
+    align-items: center;
+	border-radius: 30%;
+}
+
+
+div:where(.swal2-container) h2:where(.swal2-title) {
+	font-family: var(--font-family-title);
+	font-size: var(--font-size-title);
+	color: var(--font-color-primary);
+	text-decoration: none; 
+}
+
+.swal2-container h2.swal2-title {
+	font-family: var(--font-family-title);
+	font-size: var(--font-size-title);
+	color: var(--font-color-primary);
+}
+
+.swal2-html-container {
+   
+	font-family: var(--font-family-subtitle);
+	font-size: var(--font-size-subtitle);
+	
+}
+.swal2-html-container p {
+	color: #8A6113; 
+  }
+
+
+
+/* Sweet Alert*/
