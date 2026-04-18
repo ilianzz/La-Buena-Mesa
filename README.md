@@ -74,9 +74,3 @@ Todos los botones que no cumplan una función específica se redireccionan a est
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 
-## Integrantes del equipo <a name="integrantes"></a>
-- Georgina Costilla: https://github.com/georginacostilla | https://www.linkedin.com/in/georgina-costilla/
-- Andrea Orlandi: https://github.com/AndiOrlandi | https://www.linkedin.com/in/andreajosefinaorlandi/
-- Jeremias Juarez Marrades: https://github.com/JeremiasJM | https://www.linkedin.com/in/jeremiasjm/
-- Cristian Fernández: https://github.com/Fernandez-Cristian-Javier-ISI-UTN-FRT | https://www.linkedin.com/in/fern%C3%A1ndez-cristian-javier-93-/
-- Braian Mena: https://github.com/mbraian | https://www.linkedin.com/in/braian-mena/
